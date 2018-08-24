@@ -19,7 +19,7 @@ var config = Config{
 
 func say_hello(w http.ResponseWriter, req *http.Request) {
 	log.Printf("Hello endpoint got called by %s", req.Referer())
-	msg := []byte(fmt.Sprintf("<h1>hello secret is: %s </h1>", config.SecretKey))
+	msg := []byte(fmt.Sprintf("<h1>hello secret food is: %s </h1>", config.SecretKey))
 	w.Write(msg)
 }
 

@@ -1,0 +1,10 @@
+{
+    "env": {
+        "SECRET_KEY": "@time_secret_key",
+        "ADDRESS": "0.0.0.0:8500"
+    },
+    "features": {
+        "cloud": "v1"
+    },
+    "type": "docker"
+}

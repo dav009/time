@@ -1,6 +1,6 @@
 {
     "env": {
-        "SECRETFOOD": "icecream",
+        "SECRETFOOD": "@secret_food",
         "FLAVOR": "chocolate"
     },
     "features": {

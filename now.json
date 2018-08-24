@@ -1,10 +1,9 @@
 {
     "env": {
-        "SECRET_KEY": "@time_secret_key",
-        "ADDRESS": "0.0.0.0:8500"
+        "SECRETFOOD": "icecream",
+        "FLAVOR": "chocolate"
     },
     "features": {
         "cloud": "v1"
-    },
-    "type": "docker"
+    }
 }
